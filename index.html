@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Web Page</title>
+
+<style>
+	body{
+		margin:0;
+		padding:0;
+		line-height:1.5em;
+	}
+	#header{
+		background:black;
+		font-family:Arial;
+		height:100px;
+	}
+	#contentwrapper{
+		float:left;
+		width:100%;
+	}
+	#contentcolumn{
+		margin:0,230px,0,230px;
+	}
+	#leftcolumn{
+		float:left;
+		width:230px;
+		margin-left:-100%;
+		background:#24C8FF;
+	}
+	#rightcolumn{
+		float:left;
+		width:230px;
+		margin-left:-230px;
+		background:#FFFB00;
+	}
+	.innertext{
+		margin:20px;
+		font-family:Arial;
+		color:#5E5E5E;
+	}
+	#footer{
+		clear:left;
+		width:100%;
+		background:black;
+		color:#FFF;
+		font-family:Arial;
+		text-align:center;
+		padding:4px;
+	}
+	
+	ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		background-color:#000;
+	}
+	li{
+		float:left;
+		border-right:1px solid #bbb;
+	}
+	li:last-child{
+		border-right:none;
+	}
+	li a{
+		display:block;
+		color:white;
+		text-align:center;
+		padding:14px 16px;
+		text-decoration:none;
+	}
+	li a:hover:not(.active){
+		background-color:#808080;
+	}
+	.active{
+		background-color:#0099ff;
+	}
+	
+	
+	@media(max-width:840px){
+		#leftcolumn{
+			margin-left:-100%;
+		}
+		#rightcolumn{
+			float:none;
+			width:100%;
+			margin-left:0;
+			clear:both;
+		}
+		#contentcolumn{
+			margin-right:0;
+		}
+	}
+	@media(max-width:600px){
+		#leftcolumn{
+			float:none;
+			width:100%;
+			margin-left:0;
+			clear:both;
+		}
+		#contentcolumn{
+			margin-right:0;
+		}
+	}
+	
+</style>
+
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+		<ul style="display: inline">
+			<li><a class="active" href="#home">Home</a></li>
+			<li><a href="#news">About</a></li>
+			<li><a href="#contact">News</a></li>
+			<li><a href="#About">Contact</a></li>
+		</ul>
+	</div>
+	<div id="contentwrapper">
+		<div id="contentcolumn">
+			<div class="innertext">
+				Often, the body paragraph demonstrates and develops your topic sentence through an ordered, logical
+				progression of ideas. There are a number of useful techniques for expanding on topic sentences and developing
+				your ideas in a paragraph. Illustration in a paragraph supports a general statement by means of 
+				examples, details, or relevant quotations (with your comments).
+				In Harry’s world fate works not only through powers and objects such as prophecies, the Sorting Hat, wands, 
+				and the Goblet of 
+				Fire, but also through people. Repeatedly, other characters decide Harry’s future for him, depriving him of 
+				freedom and choice.
+				For example, before his eleventh birthday, the Dursleys control Harry’s life, keeping from him knowledge of
+				his past and understanding of his identity (Sorcerer’s 49). In Harry Potter and the Chamber of Secrets, Dobby
+				repeatedly assumes control over events by intercepting Ron’s and Hermione’s letters during the summer; by 
+				sealing the barrier to Platform 93⁄4, causing Harry to miss the Hogwarts Express; and by sending a Bludger
+				after Harry in a Quidditch match, breaking his wrist. Yet again, in Harry Potter and the Prisoner of Azkaban
+				, many adults intercede while attempting to protect Harry from perceived danger, as Snape observes: “Everyone
+				from the Minister of Magic downward has been trying to keep famous Harry Potter safe from Sirius Black” (284).
+				All these characters, as enactors of fate, unknowingly drive Harry toward his destiny by attempting to control
+				or to direct his life, while themselves controlled and directed by fate.l reserves. Second, the promot
+			</div>
+		</div>
+	</div>
+	<div id="leftcolumn">
+		<div class="innertext">
+			Often, the body paragraph demonstrates and develops your topic sentence through an ordered, logical
+			progression of ideas. There are a number of useful techniques for expanding on topic sentences and developing
+			your ideas in a paragraph. Illustration in a paragraph supports a general statement by means of 
+			examples, details, or relevant quotations (with your comments).
+			In Harry’s world fate works not only through powers and objects such as prophecies, the Sorting Hat, wands, 
+			and the Goblet of 
+			Fire, but also through people. Repeatedly, other characters decide Harry’s future for him, depriving him of 
+			freedom and choice.
+			For example, before his eleventh birthday, the Dursleys control Harry’s life, keeping from him knowledge of
+			his past and understanding of his identity (Sorcerer’s 49). In Harry Potter and the Chamber of Secrets, Dobby
+			repeatedly assumes control over events by intercepting Ron’s and Hermione’s letters during the summer; by 
+			sealing the barrier to Platform 93⁄4, causing Harry to miss the Hogwarts Express; and by sending a Bludger				after Harry in a Quidditch match, breaking his wrist. Yet again, in Harry Potter and the Prisoner of Azkaban
+			, many adults intercede while attempting to protect Harry from perceived danger, as Snape observes: “Everyone
+			from the Minister of Magic downward has been trying to keep famous Harry Potter safe from Sirius Black” (284).
+			All these characters, as enactors of fate, unknowingly drive Harry toward his destiny by attempting to control
+			or to direct his life, while themselves controlled and directed by fate.l reserves. Second, the promot
+		</div>
+	</div>
+	<div id="rightcolumn">
+		<div class="innertext">
+			Often, the body paragraph demonstrates and develops your topic sentence through an ordered, logical
+			progression of ideas. There are a number of useful techniques for expanding on topic sentences and developing
+			your ideas in a paragraph. Illustration in a paragraph supports a general statement by means of 
+			examples, details, or relevant quotations (with your comments).
+			In Harry’s world fate works not only through powers and objects such as prophecies, the Sorting Hat, wands, 
+			and the Goblet of 
+			Fire, but also through people. Repeatedly, other characters decide Harry’s future for him, depriving him of 
+			freedom and choice.
+			For example, before his eleventh birthday, the Dursleys control Harry’s life, keeping from him knowledge of
+			his past and understanding of his identity (Sorcerer’s 49). In Harry Potter and the Chamber of Secrets, Dobby
+			repeatedly assumes control over events by intercepting Ron’s and Hermione’s letters during the summer; by 
+			sealing the barrier to Platform 93⁄4, causing Harry to miss the Hogwarts Express; and by sending a Bludger				after Harry in a Quidditch match, breaking his wrist. Yet again, in Harry Potter and the Prisoner of Azkaban
+			, many adults intercede while attempting to protect Harry from perceived danger, as Snape observes: “Everyone
+			from the Minister of Magic downward has been trying to keep famous Harry Potter safe from Sirius Black” (284).
+			All these characters, as enactors of fate, unknowingly drive Harry toward his destiny by attempting to control
+			or to direct his life, while themselves controlled and directed by fate.l reserves. Second, the promot
+		</div>
+	</div>
+	<div id="footer"> Footer</div>
+</div>
+</body>
+
+</html>
